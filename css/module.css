@@ -1,0 +1,281 @@
+
+/* common
+---------------------------------------------------------------------*/
+a{
+  color: #fff;
+}
+p:first-child{
+  margin-top: 0;
+}
+.annotation_num{
+  
+}
+.annotation_num dd{
+  margin-left: 2em;
+  margin-top: -1.5em;
+}
+.news{
+  
+}
+.news dd{
+  margin-left: 9em;
+  margin-top: -1.5em;
+}
+.ta_c{
+  text-align: center !important;
+}
+.mt_30{
+  margin-top: 30px !important;
+}
+/* #timetable
+---------------------------------------------------------------------*/
+#timetable dt{
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin:15px 0 0;
+  background: #333;
+}
+#timetable dt.margin_0{
+  margin: 0;
+}
+#timetable dd{
+  margin:0 0 15px;
+  padding: 5px 10px;
+  background: #333;
+
+}
+#timetable dt.race{
+  background: #FF5BAC;
+  margin: 0;
+}
+#timetable dd.race{
+  background: #333;
+}
+#timetable dt:last-child{
+  margin-bottom: 0;
+}
+/* #race
+---------------------------------------------------------------------*/
+#race .fl_l{ width: 475px; float: left;}
+#race .fl_r{ width: 475px; float: right;}
+#race h3{margin-top: 0;}
+#race table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+#race table th,
+#race table td{
+  border-top: 1px solid #000;
+  padding: 7px 10px 5px;
+  line-height: 1.4;
+  vertical-align: text-top;
+  background: #333;
+}
+#race table th{
+  width: 85px;
+  padding-right: 0;
+}
+
+/* #tickets
+---------------------------------------------------------------------*/
+#ticket table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+#ticket table th,
+#ticket table td{
+  border-top: 3px solid #000;
+  padding: 10px 10px 0;
+  line-height: 1.4;
+  vertical-align: text-top;
+  background: #333;
+}
+#ticket table th{
+  white-space: nowrap;
+}
+#ticket table td{
+  text-align: right;
+}
+#ticket table td strong{
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+#ticket table td.txt-detail{
+  padding: 5px 10px 10px;
+  border: none;
+  text-align: left;
+}
+#ticket table td.no-border{
+  border: none;
+}
+/*table.ticket*/
+#ticket table.ticket{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+table.ticket + table.ticket{
+  margin-top: 5px;
+}
+#ticket table.ticket th,
+#ticket table.ticket td{
+  border-top: 1px dotted #000;
+  padding: 10px;
+  line-height: 1.4;
+  vertical-align: text-top;
+  background: #333;
+}
+#ticket table.ticket th{
+  white-space: nowrap;
+}
+#ticket table.ticket td{
+  text-align: right;
+}
+#ticket table.ticket td strong{
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+#ticket table.ticket td.txt-detail{
+  padding: 10px;
+  border-top: 1px dotted #000;
+  text-align: left;
+}
+#access .inner{
+  margin: 10px 0 0;
+}
+.annotation{
+  padding-left: 1.25em;
+  text-indent: -1.25em;
+}
+.list_disc{
+  padding-left: 1.5em;
+}
+/* .sns
+---------------------------------------------------------------------*/
+.sns {
+  height: 20px;
+  margin: 30px auto 50px;
+  line-height: 1;
+}
+.sns span.btn-share{
+  display: inline-block !important;
+  height: 20px;
+  vertical-align: top;
+  width: auto;
+  overflow: hidden;
+}
+.sns span.btn-share:not(:first-child){
+  margin-left: 10px;
+}
+.copyright{
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+/*For Tablet and PC
+---------------------------------------------------------------------*/
+@media screen and (min-width: 481px) {
+  .main-v-eventinfo{
+    margin:55px 0 0;
+  }
+  #drone {
+    margin-top: 50px;
+  }
+  #about .detail{
+    float: left;
+    width: 380px;
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  #about .movieDisplay.pc{
+  float: right;
+  }
+  #ticket .detail{
+    float: left;
+    width: 620px;
+  }
+  #ticket .widget-ticket{
+    float: right;
+  }
+  #map{
+    height: 600px;
+  }
+}
+/*For Smart Phone
+---------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  #drone{
+    text-align: center;
+  }
+  #about .clearfix{
+    text-align: center;
+  }
+  #about .detail{
+  text-align: left;
+  }
+  #about .movieDisplay.sp{
+    margin: 1em auto 0;
+  }
+  .widget-ticket{
+    margin: 30px auto 0;
+  }
+  .news dt:not(:first-child){
+    margin-top: 15px;
+  }
+  .news dd{
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #race .fl_l{ width: 100%; float:none;}
+  #race .fl_r{ width: 100%; float:none;}
+  #access{
+    margin: 0 -10px;
+  }
+  #access .inner{
+    margin: 10px 10px 0;
+  }
+  .race h3:first-child{
+    margin-top: 0;
+  }
+  #map{
+    width: 100%;
+    height: 300px;
+  }
+  .sns span.btn-share.twitter {
+    width: 100px;
+  }
+}
+.fl_l{
+  float: left;
+}
+.app-intro .txt-app-description{
+  margin-left: 90px;
+}
+.app-intro .txt-app-description h3{
+  margin: 0 0 5px;
+}
+.app-intro .txt-app-description p{
+  margin: 0;
+}
+@media screen and (max-width: 320px) {
+  .widget-ticket{
+    margin: 30px -10px 0;
+  }
+}
+/*clearfix
+---------------------------------------------------------------------*/
+.movieArena:before, .movieArena:after,
+#tickets:before, #tickets:after,
+.clearfix:before, .clearfix:after {
+    content:"";
+    display:block;
+    overflow:hidden;
+}
+.movieArena:after,
+#tickets:after,
+.clearfix:after {
+    clear:both;
+}

@@ -1,0 +1,142 @@
+body{
+  font-family:"Roboto Condensed","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  background: url(/img/common/bg_main.jpg) #000 no-repeat center top ;
+  background-size: 2400px 1280px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+/* Common Setting */
+html { font-size: 62.5%; }
+body { font-size: 10px; font-size: 1.0rem; }
+h1 { font-size: 24px; font-size: 2.4rem; }
+h2 { font-size: 22px; font-size: 2.2rem; text-align: center; margin-top: 50px;}
+h3 { font-size: 20px; font-size: 2.0rem;  font-weight: 100; margin-bottom: 7px;}
+h4 { font-size: 18px; font-size: 1.8rem; }
+h5 { font-size: 16px; font-size: 1.6rem; }
+h6 { font-size: 14px; font-size: 1.4rem; }
+.wrap-cell{
+  background: url(/img/common/bg_cell.png) repeat-x center top;
+}
+#container{
+  width: 980px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+header{
+  height: 630px;
+  position: relative;
+}
+.logo_jdra{
+  text-align: right;
+  margin: 0;
+}
+#site-logo{
+  margin:-15px 0 0 18px;
+  padding:0 0 0;
+}
+.main-v-copy{
+  margin: 12px 0 0 38px;
+}
+.main-v-copy-sub{
+  margin: 25px 0 0 44px;
+}
+.main-v-eventinfo{
+  margin:35px 0 0;
+  text-align: right;
+}
+nav {
+  width: 980px;
+  margin: 0 auto;
+}
+nav > p{
+  margin: 0;
+}
+.error{
+  color: #fff;
+  font-size: 32px;
+  padding-left: 37px;
+  
+}
+#footer{
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 481px) {
+  #container .sp{
+    display: none !important;
+  }
+}
+/*---------------------------------------------------------------------
+Under 480px
+---------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+body{
+  min-height: 100%;
+  background: url(/img/common/bg_main-sp.jpg) #000 no-repeat center top ;
+  background-size: 600px 600px;
+}
+#container .pc{
+  display: none !important;
+}
+.wrap-cell{
+  background: url(/img/common/bg_cell_sp.png) repeat-x center top;
+  background-size: 414px 320px;
+  padding:0 10px;
+}
+#container{
+  width: 100%;
+}
+header{
+  height: auto;
+}
+.logo_jdra img{
+  width: 75px;
+  height: 50px;
+}
+#site-logo{
+  margin: 16px 0 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1;
+}
+#site-logo img{
+  width: 300px;
+}
+.main-v-copy{
+  margin:10px 0 0;
+  text-align: center;
+  line-height: 1;
+}
+.main-v-copy img{
+  width: 240px;
+}
+.main-v-copy-sub{
+  margin:15px 0 0;
+  text-align: center;
+  line-height: 1;
+}
+.main-v-copy-sub img{
+  width: 230px;
+}
+.main-v-eventinfo{
+  text-align: center;
+  background: rgba(255, 91, 172, 0.8);
+  padding: 10px;
+  margin: 70px -10px 30px;
+  position: relative;
+}
+.main-v-eventinfo img{
+  display: none;
+}
+/*----- End max-width-480px -----*/}
+.clearfix, heder{
+  zoom:1;
+}
+.clearfix:after, heder:after{
+  content: ""; 
+  display: block; 
+  clear: both;
+}
