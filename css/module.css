@@ -179,7 +179,6 @@ table.ticket + table.ticket{
 ---------------------------------------------------------------------*/
 @media screen and (min-width: 481px) {
   .main-v-eventinfo{
-    margin:55px 0 0;
   }
   #drone {
     margin-top: 50px;
