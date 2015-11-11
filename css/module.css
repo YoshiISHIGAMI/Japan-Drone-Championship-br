@@ -79,6 +79,8 @@ h5.about {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 #race table th,
 #race table td{
@@ -89,9 +91,10 @@ h5.about {
   background: #333;
 }
 #race table th{
-  width: 85px;
+  width: 50px;
   padding-right: 0;
 }
+
 
 /* #tickets
 ---------------------------------------------------------------------*/
