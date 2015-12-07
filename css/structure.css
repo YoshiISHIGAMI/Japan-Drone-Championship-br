@@ -127,6 +127,7 @@ header{
   padding: 10px;
   margin: 70px -10px 30px;
   position: relative;
+  text-decoration: line-through;
 }
 .main-v-eventinfo img{
   display: none;
